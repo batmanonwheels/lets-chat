@@ -9,7 +9,7 @@ gem "rails", "~> 7.0.8"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-# Use pg as the database for Active Record
+# Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
 # Use the Puma web server [https://github.com/puma/puma]
@@ -70,5 +70,3 @@ group :test do
   gem "selenium-webdriver"
 
 end
-
-gem "rails-htmx", "~> 0.1.3"
